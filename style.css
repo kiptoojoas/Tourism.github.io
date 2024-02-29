@@ -1,0 +1,96 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+     background-image: url('bg2.webp');
+     background-repeat:no-repeat;
+     background-size: cover; 
+     
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:#204578;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation styles */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ccc;
+}
+
+/* Project list styles */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Additional styles */
+p {
+    color: #555;
+}
+
+@keyframes slideInOut {
+
+    0%,
+    45%,
+    100% {
+      transform: translateX(calc(-100% - 40px));
+      opacity: 0;
+      visibility: hidden;
+    }
+  
+    50%,
+    95% {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }}
